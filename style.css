@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assets/fundo1.jpg);
+    /*background-color:rgb(151, 151, 151);*/
+}
+
+#title1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    h1 {
+        font-size: 55px;
+    }
+}
+
+.numbers {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#containerButtons {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btnStart {
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.btnStart:hover {
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(21, 168, 21);
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.btnPause {
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.btnPause:hover {
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(230, 24, 24);
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.btnReset {
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: darkgoldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.btnReset:hover {
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(236, 177, 27);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+
+
+#footertext {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 170px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
