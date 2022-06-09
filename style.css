@@ -4,8 +4,7 @@
 }
 
 body {
-    background-image: url(/assets/fundo1.jpg);
-    /*background-color:rgb(151, 151, 151);*/
+    background-color: white;
 }
 
 #title1 {
@@ -43,6 +42,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin-right: 20px;
     padding: 10px;
+    ransition-duration: 150ms;
 }
 
 .btnStart:hover {
@@ -54,6 +54,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin-right: 20px;
     padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .btnPause {
@@ -65,6 +69,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin-right: 20px;
     padding: 10px;
+    ransition-duration: 150ms;
 }
 
 .btnPause:hover {
@@ -76,6 +81,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin-right: 20px;
     padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .btnReset {
@@ -86,6 +95,7 @@ body {
     background-color: darkgoldenrod;
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
+    ransition-duration: 150ms;
 }
 
 .btnReset:hover {
@@ -96,6 +106,10 @@ body {
     background-color: rgb(236, 177, 27);
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 
