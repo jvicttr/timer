@@ -42,7 +42,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin-right: 20px;
     padding: 10px;
-    ransition-duration: 150ms;
+    transition-duration: 150ms;
 }
 
 .btnStart:hover {
@@ -69,7 +69,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin-right: 20px;
     padding: 10px;
-    ransition-duration: 150ms;
+    transition-duration: 150ms;
 }
 
 .btnPause:hover {
@@ -95,7 +95,7 @@ body {
     background-color: darkgoldenrod;
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
-    ransition-duration: 150ms;
+    transition-duration: 150ms;
 }
 
 .btnReset:hover {
